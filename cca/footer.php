@@ -45,10 +45,10 @@
     -->
      <div class="col-lg-4 text-center text-lg-right">
        <div class="footer-social">
-         <a href="<?php echo $user_facebook ?>"><i class="ti-facebook"></i></a>
-         <a href="<?php echo $user_twitter ?>"> <i class="ti-twitter"></i> </a>
-         <a href="<?php echo $user_insta ?>"><i class="ti-instagram"></i></a>
-         <a href="<?php echo $user_git ?>"><i class="ti-github"></i></a>
+         <a target="_blank" href="<?php echo $user_facebook ?>"><i class="ti-facebook"></i></a>
+         <a target="_blank" href="<?php echo $user_twitter ?>"> <i class="ti-twitter"></i> </a>
+         <a target="_blank" href="<?php echo $user_insta ?>"><i class="ti-instagram"></i></a>
+         <a target="_blank" href="<?php echo $user_git ?>"><i class="ti-github"></i></a>
        </div>
      </div>
 

@@ -43,10 +43,10 @@
                     </div>
                     <div class="header_social_icon d-none d-lg-block">
                         <ul>
-                            <li><a href="<?php echo $user_facebook; ?>" class="d-none d-lg-block"><i class="ti-facebook"></i></a></li>
-                            <li><a href="<?php echo $user_twitter; ?>" class="d-none d-lg-block"> <i class="ti-twitter-alt"></i></a></li>
-                            <li><a href="<?php echo $user_insta; ?>" class="d-none d-lg-block"><i class="ti-instagram"></i></a></li>
-                            <li><a href="<?php echo $user_git; ?>" class="d-none d-lg-block"><i class="ti-github"></i></a></li>
+                            <li><a target="_blank" href="<?php echo $user_facebook; ?>" class="d-none d-lg-block"><i class="ti-facebook"></i></a></li>
+                            <li><a target="_blank" href="<?php echo $user_twitter; ?>" class="d-none d-lg-block"> <i class="ti-twitter-alt"></i></a></li>
+                            <li><a target="_blank" href="<?php echo $user_insta; ?>" class="d-none d-lg-block"><i class="ti-instagram"></i></a></li>
+                            <li><a target="_blank" href="<?php echo $user_git; ?>" class="d-none d-lg-block"><i class="ti-github"></i></a></li>
                         </ul>
                     </div>
                 </nav>

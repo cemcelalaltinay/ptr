@@ -9,7 +9,7 @@ include 'degiskenler.php';
     <div class="sidebar_widget">
         <div class="single_sidebar_wiget">
             <div class="sidebar_tittle">
-                <h3>Size Özel Seçkiler  </h3>
+                <h3>Seçme Yazılar</h3>
             </div>
 
 

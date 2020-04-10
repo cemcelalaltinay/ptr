@@ -4,6 +4,12 @@
       include 'degiskenler.php';
       include 'eklenti.php';
           ?>
+          <!-- Dokunma Kaç Git Bu sayfadannnn -->
+          <!-- Dokunma Kaç Git Bu sayfadannnn -->
+          <!-- Dokunma Kaç Git Bu sayfadannnn -->
+          <!-- Dokunma Kaç Git Bu sayfadannnn -->
+          <!-- Dokunma Kaç Git Bu sayfadannnn -->
+          <!-- Dokunma Kaç Git Bu sayfadannnn -->
 
       <body>
       <!-- banner post start-->
