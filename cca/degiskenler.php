@@ -10,5 +10,6 @@ $page_title="Merhaba Dünya";
 $page_img="";
 $page_kategori="";
 $page_text="";
+$page_info="";
 
  ?>

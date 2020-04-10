@@ -4,20 +4,13 @@
       include 'eklenti.php';
       include 'baglan.php';
 
-      $sql = "SELECT * FROM $tablo_adi
-      WHERE page_id=$page_id" ;
-      $oku = mysqli_query($conn, $sql);
-
-      $result = mysqli_fetch_assoc($oku);
-
-      $page_title = $result['page_title'];
-      $page_img = $result['page_img'];
-      $page_kategori = $result['page_kategori'];
+      $veri = "SELECT MAX(page_id) AS maxi FROM $tablo_adi" ;
+      $miktar = mysqli_query($conn, $veri);
+      $sayilar = mysqli_fetch_assoc($miktar);
+      $en = $sayilar['maxi'];
 
 
-
-
-      ?>
+    ?>
 
       <body>
       <!-- banner post start-->
@@ -37,11 +30,11 @@
                                   <div class="single_post_text text-center">
                                       <h5>Merhaba Dünya</h5>
                                       <a href="hakkimda.php"><h2> Hakkımda kısmını ziyaret edin lütfen </h2></a>
-                                      <p>21. Yüzyılda yazılmıştır</p>
+                                      <p>21. Yüz Yılda yazılmıştır</p>
                                   </div>
                               </div>
                           </div>
-                          <?php for ($page_id=1; $page_id < 4; $page_id++) {
+                          <?php for ($page_id=1; $page_id <= $en; $page_id++) {
 
                             $sql = "SELECT * FROM $tablo_adi
                             WHERE page_id=$page_id" ;
@@ -52,6 +45,7 @@
                             $page_title = $result['page_title'];
                             $page_img = $result['page_img'];
                             $page_kategori = $result['page_kategori'];
+                            $page_info = $result['page_info'];
                            ?>
                           <div class="col-lg-6 col-sm-6">
                               <div class="single_post post_1">
@@ -60,8 +54,8 @@
                                   </div>
                                   <div class="single_post_text text-center">
                                       <a href=""><h5> <?php echo $page_kategori; ?></h5></a>
-                                      <a href="single-blog.html"><h2><?php echo $page_title; ?></h2></a>
-                                      <p>Posted on April 15, 2019</p>
+                                      <a href="blog.php?page_id=<?php echo $page_id; ?>"><h2><?php echo $page_title; ?></h2></a>
+                                      <p><?php echo $page_info; ?></p>
                                   </div>
                               </div>
                           </div>

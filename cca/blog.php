@@ -12,11 +12,6 @@ else {
   $page_id = 1;
 }
 
-
-
-
-
-
 $sql = "SELECT * FROM $tablo_adi
 WHERE page_id=$page_id" ;
 $oku = mysqli_query($conn, $sql);
