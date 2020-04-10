@@ -55,14 +55,13 @@
 
                             <?php } ?>
 
-
-
-
-
-
-
-
                       </div>
+
+
+
+                      <!--
+                      Next düğmeleri ki bence çaktırma uçur gitsin yada bağlarım derseniz yaparız...
+
                       <div class="page_pageniation">
                           <nav aria-label="Page navigation example">
                               <ul class="pagination justify-content-center">
@@ -78,13 +77,12 @@
                               </ul>
                           </nav>
                       </div>
+
+-->
+
+
+
                   </div>
-
-
-
-
-
-
 <?php include'bar.php' ?>
 <?php include'footer.php' ?>
 
