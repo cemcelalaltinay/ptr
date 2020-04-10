@@ -22,7 +22,6 @@
                     <a href="ilk.php"><h2>Açelya Başak </h2></a>
                     <p>Posted on April 15, 2019</p>
                 </div>
-
             </div>
         </div>
     </div>

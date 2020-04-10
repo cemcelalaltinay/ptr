@@ -5,6 +5,18 @@ include 'eklenti.php';
 include 'baglan.php';
 
 
+if ($_GET) {
+    $page_id = $_GET['page_id'];
+}
+else {
+  $page_id = 1;
+}
+
+
+
+
+
+
 $sql = "SELECT * FROM $tablo_adi
 WHERE page_id=$page_id" ;
 $oku = mysqli_query($conn, $sql);
@@ -15,9 +27,6 @@ $page_title = $result['page_title'];
 $page_text = $result['page_text'];
 $page_img = $result['page_img'];
 $page_kategori = $result['page_kategori'];
-
-
-
    ?>
 
 <!-- breadcrumb start-->
