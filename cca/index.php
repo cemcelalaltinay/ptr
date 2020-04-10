@@ -1,16 +1,9 @@
 <?php
       include 'header.php';
+      include 'baglan.php';
       include 'degiskenler.php';
       include 'eklenti.php';
-      include 'baglan.php';
-
-      $veri = "SELECT MAX(page_id) AS maxi FROM $tablo_adi" ;
-      $miktar = mysqli_query($conn, $veri);
-      $sayilar = mysqli_fetch_assoc($miktar);
-      $en = $sayilar['maxi'];
-
-
-    ?>
+          ?>
 
       <body>
       <!-- banner post start-->

@@ -10,4 +10,9 @@ if (!$conn) {
 //else {echo "Veritabanı HATASII!!";}
 //echo "Connected successfully";
 //mysqli_close($conn);
+
+$veri = "SELECT MAX(page_id) AS maxi FROM $tablo_adi" ;
+$miktar = mysqli_query($conn, $veri);
+$sayilar = mysqli_fetch_assoc($miktar);
+$en = $sayilar['maxi'];
 ?>

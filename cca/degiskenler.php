@@ -1,5 +1,7 @@
 <?php
 
+//******************************
+// ! ! DOKUNMA ! !
 $user="root";
 $pass ="";
 $data = "rumeliedu";
@@ -11,5 +13,13 @@ $page_img="";
 $page_kategori="";
 $page_text="";
 $page_info="";
+
+// ***************************
+
+
+$user_facebook ="";
+$user_twitter ="";
+$user_insta = "";
+$user_git = "";
 
  ?>
