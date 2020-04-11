@@ -24,6 +24,13 @@ include'admin_pan.php';
        <form role="form"  action="admin_pan.php" method="post">
 
          <div class="row">
+           <div class="col-sm-5">
+             <!-- text input -->
+             <div class="form-group">
+               <label>Yazı ID Numarası sistem tarafından atanır</label>
+               <input type="text" required="" class="form-control" name="page_id" value="<?php echo $page_id ?>" disabled>
+             </div>
+           </div>
            <div class="col-sm-12">
              <!-- text input -->
              <div class="form-group">
