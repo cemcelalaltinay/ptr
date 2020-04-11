@@ -1,10 +1,51 @@
 <?php
 
+
+
+//******************************
+// ! ! DOKUNMA ! !
+$user="root";
+$pass ="";
+$data = "rumeliedu";
+$sunucu="localhost";
+$tablo_adi ="cemcelalaltinay";
+$page_id="1";
+$page_title="Merhaba Dünya";
+$page_img="";
+$page_kategori="";
+$page_text="";
+$page_info="";
+
+
+$conn = mysqli_connect($sunucu, $user, $pass, $data);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+    echo "Veritabanı HATASII!!";
+}
+//else {echo "Veritabanı HATASII!!";}
+//echo "Connected successfully";
+//mysqli_close($conn);
+
+$veri = "SELECT MAX(page_id) AS maxi FROM $tablo_adi" ;
+$miktar = mysqli_query($conn, $veri);
+$sayilar = mysqli_fetch_assoc($miktar);
+$en = $sayilar['maxi'];
+
+
+
+
 $user_id ="1001";
 $usaer_pass="1122334455";
 $user_admin="Cem Celal Altınay";
 $user_mail="cemcelal95@hotmail.com";
 
-
+$tablo_adi ="cemcelalaltinay";
+$page_id="1";
+$page_title="Başlık";
+$page_img="";
+$page_kategori="Alt başlık katege";
+$page_text="yazıyazıyaızyaıyzaıyazıya";
+$page_info="bu bir info aslanım";
 
  ?>
