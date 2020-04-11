@@ -37,6 +37,9 @@ include'admin_pan.php';
                   <th>Page_id</th>
                   <th>Page_info</th>
                   <th>tablo_adi</th>
+                  <th>page_text</th>
+
+
                 </tr>
                 </thead>
                 <tbody>
@@ -52,6 +55,9 @@ include'admin_pan.php';
                     $page_img = $result['page_img'];
                     $page_kategori = $result['page_kategori'];
                     $page_info = $result['page_info'];
+                    $page_id = $result['page_id'];
+                    $page_text = $result['page_text'];
+
                    ?>
 
                 <tr>
@@ -59,6 +65,8 @@ include'admin_pan.php';
                   <td><?php echo $page_id; ?></td>
                   <td><?php echo $page_info; ?></td>
                   <td><?php echo $tablo_adi; ?></td>
+                  <td><?php echo $page_text; ?></td>
+
                     </tr>
                     <?php } ?>
                 </tbody>
