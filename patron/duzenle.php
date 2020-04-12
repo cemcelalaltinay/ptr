@@ -8,7 +8,8 @@ if ($_POST) {
   $page_img=$_POST['page_img'];
   $page_kategori=$_POST['page_kategori'];
   $page_text=$_POST['page_text'];
-  $page_info=$_POST['page_info'];}
+  $page_info=$_POST['page_info'];
+  $tablo_adi=$_POST['tablo_adi'];}
 
 
 

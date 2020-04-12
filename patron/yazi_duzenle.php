@@ -1,4 +1,5 @@
 <?php
+
 include'header.php';
 include 'bar.php';
 include'admin_pan.php';
@@ -51,6 +52,8 @@ $page_text = $result['page_text'];
              <div class="form-group">
                <label>Yazı ID Numarası sistem tarafından atanır</label>
                <input type="hidden" class="form-control" name="page_numara" value="<?php echo $page_id ?>" >
+               <input type="hidden" class="form-control" name="tablo_adi" value="<?php echo $tablo_adi ?>" >
+
              </div>
            </div>
            <div class="col-sm-12">

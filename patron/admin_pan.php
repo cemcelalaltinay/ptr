@@ -1,4 +1,5 @@
 <?php
+
 //******************************
 // ! ! DOKUNMA ! !
 $user="root";
@@ -8,9 +9,9 @@ $sunucu="localhost";
 
 $user_id ="1001";
 $usaer_pass="1122334455";
-$user_admin="Cem Celal Altınay";
+$user_admin= $_SESSION['user'];
 $user_mail="cemcelal95@hotmail.com";
-$tablo_adi ="cemcelalaltinay";
+$tablo_adi = $_SESSION['user'];
 $page_id="1";
 $page_title="";
 $page_img="";

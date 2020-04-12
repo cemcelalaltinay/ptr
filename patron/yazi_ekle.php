@@ -42,6 +42,8 @@ else {
              <div class="form-group">
                <label>Yazı ID Numarası sistem tarafından atanır</label>
                <input type="hidden"class="form-control" name="page_id" value="">
+               <input type="hidden"class="form-control" name="tablo_adi" value="<?php echo $tablo_adi ?>">
+
              </div>
            </div>
            <div class="col-sm-12">
