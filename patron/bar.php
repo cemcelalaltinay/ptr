@@ -42,6 +42,15 @@
                         <p>Yeni Yazı Ekle</p>
                 </a>
                   </li>
+                  <li class="nav-item">
+
+                      <a href="logout.php" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                              <p>Çıkış Yap</p>
+                      </a>
+
+
+                    </li>
 
 
         </ul>

@@ -13,7 +13,8 @@ if ($_POST) {
 
 
 
-$duzenle = "UPDATE $tablo_adi SET page_id='$page_id',page_title='$page_title',page_text='$page_text',page_img='$page_img',page_kategori='$page_kategori',page_info='$page_info' WHERE page_id=$page_id";
+$duzenle = "INSERT INTO $tablo_adi (page_title, page_text, page_img, page_kategori, page_info)
+VALUES ('$page_title', '$page_text', '$page_img', '$page_kategori', '$page_info')";
 if(mysqli_query($conn, $duzenle)){
   //  echo "Record was updated successfully.";
  header("location:index.php?durum=text");

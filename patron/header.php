@@ -1,4 +1,15 @@
-<?php include 'admin_pan.php' ?>
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+  header("location:login.php");
+
+}
+$tablo_adi = $_SESSION['user'];
+
+include 'admin_pan.php';
+ ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>

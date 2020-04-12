@@ -1,7 +1,20 @@
 <?php
+
 include'header.php';
 include 'bar.php';
 include'admin_pan.php';
+
+
+if ($_GET) {
+      $durum = $_GET['durum'];
+}
+else {
+  $durum="hidden";
+}
+
+
+
+
  ?>
  <!-- DataTables -->
  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
@@ -28,6 +41,12 @@ include'admin_pan.php';
             <div class="card-header">
               <h3 class="card-title">Yazılarınızı buradan düzenleyebilirsiniz</h3>
 
+            </div>
+            <div class="col-sm-3">
+              <!-- text input -->
+              <div class="form-group">
+                <input type="<?php echo $durum ?>" class="form-control" name="page_numara" value="<?php echo "Yükleme Başaralı" ?>" disabled>
+              </div>
             </div>
             <!-- /.card-header -->
             <div class="card-body">

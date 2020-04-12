@@ -2,6 +2,13 @@
 include'header.php';
 include 'bar.php';
 include'admin_pan.php';
+
+if ($_POST) {
+  $durum = $_POST['durum'];
+}
+else {
+  $durum = "hidden";
+}
  ?>
  <div class="content-wrapper">
    <!-- Content Header (Page header) -->
@@ -15,20 +22,26 @@ include'admin_pan.php';
    <!-- general form elements disabled -->
    <div class="card card-warning">
      <div class="card-header">
-       <h3 class="card-title"><?php echo $page_title ?></h3>
+       <div class="col-sm-3">
+         <!-- text input -->
+         <div class="form-group">
+           <input type="<?php echo $durum ?>" class="form-control" name="page_numara" value="<?php echo "Yükleme Başaralı" ?>" disabled>
+         </div>
+       </div>
+       <h3 class="card-title">Yeni Yazı Ekle</h3>
      </div>
      <!-- /.card-header -->
      <div class="card-body">
 
 
-       <form role="form"  action="duzenle.php" method="post">
+       <form role="form"  action="ekle.php" method="post">
 
          <div class="row">
            <div class="col-sm-5">
              <!-- text input -->
              <div class="form-group">
                <label>Yazı ID Numarası sistem tarafından atanır</label>
-               <input type="text"class="form-control" name="page_id" value="" disabled>
+               <input type="hidden"class="form-control" name="page_id" value="">
              </div>
            </div>
            <div class="col-sm-12">

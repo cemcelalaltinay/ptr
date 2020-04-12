@@ -10,6 +10,7 @@ else {
 header("Location: index.php");
 }
 
+
 $sql = "SELECT * FROM $tablo_adi
 WHERE page_id=$page_id" ;
 $oku = mysqli_query($conn, $sql);
@@ -35,6 +36,7 @@ $page_text = $result['page_text'];
    <!-- general form elements disabled -->
    <div class="card card-warning">
      <div class="card-header">
+
        <h3 class="card-title"><?php echo $page_title ?></h3>
      </div>
      <!-- /.card-header -->
@@ -85,7 +87,10 @@ $page_text = $result['page_text'];
 
        <div class="card-footer">
          <button type="submit" class="btn btn-primary">Kaydet</button>
+
        </div>
+
+
      </form>
 
      </div>
