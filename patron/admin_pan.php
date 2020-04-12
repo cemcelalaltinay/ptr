@@ -16,11 +16,11 @@ $user_mail="cemcelal95@hotmail.com";
 
 $tablo_adi ="cemcelalaltinay";
 $page_id="1";
-$page_title="Başlık Yazı için";
-$page_img="img yolu";
-$page_kategori="Alt başlık kategori";
-$page_text="yazıyazıyaızyaıyzaıyazıya";
-$page_info="bu bir info aslanım";
+$page_title="";
+$page_img="";
+$page_kategori="";
+$page_text="";
+$page_info="";
 
 $conn = mysqli_connect($sunucu, $user, $pass, $data);
 // Check connection

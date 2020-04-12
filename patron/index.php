@@ -27,14 +27,15 @@ include'admin_pan.php';
           <div class="card">
             <div class="card-header">
               <h3 class="card-title">Yazılarınızı buradan düzenleyebilirsiniz</h3>
+
             </div>
             <!-- /.card-header -->
             <div class="card-body">
               <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>
-                  <th>Page_title</th>
                   <th>Page_id</th>
+                  <th>Page_title</th>
                   <th>Page_info</th>
                   <th>tablo_adi</th>
                   <th>page_text</th>
@@ -61,8 +62,8 @@ include'admin_pan.php';
                    ?>
 
                 <tr>
+                  <td><a href="yazi_duzenle.php?page_id=<?php echo $page_id; ?>"><?php echo $page_id; ?></a></td>
                   <td><?php echo $page_title; ?></td>
-                  <td><?php echo $page_id; ?></td>
                   <td><?php echo $page_info; ?></td>
                   <td><?php echo $tablo_adi; ?></td>
                   <td><?php echo $page_text; ?></td>

@@ -37,7 +37,7 @@
               </li>
 
                 <li class="nav-item">
-                <a href="yazi.php" class="nav-link">
+                <a href="yazi_ekle.php" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                         <p>Yeni Yazı Ekle</p>
                 </a>

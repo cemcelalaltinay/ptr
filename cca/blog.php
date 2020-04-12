@@ -7,10 +7,14 @@ include 'baglan.php';
 
 if ($_GET) {
     $page_id = $_GET['page_id'];
+    if ($page_id > $en) {
+      $page_id = $en;
+    }
 }
 else {
   $page_id = 1;
 }
+
 
 $sql = "SELECT * FROM $tablo_adi
 WHERE page_id=$page_id" ;
@@ -31,6 +35,7 @@ $page_kategori = $result['page_kategori'];
             <div class="col-sm-6">
                 <div class="breadcrumb_tittle text-left">
                     <h2><?php echo $page_title ?></h2>
+
                 </div>
             </div>
             <div class="col-sm-6">
