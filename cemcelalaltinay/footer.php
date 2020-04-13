@@ -3,40 +3,41 @@
 <div class="container">
  <div class="row">
    <div class="col-xl-3 col-lg-6 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-     <h4>about us</h4>
-     <p>Heaven fruitful doesn't over the lesser days appear cree ping seasons so behold bea Place likeness female form. Lesser Was green image lights fowl.</p>
+     <h4>Hakkımıza / *ptr İRÜ</h4>
+     <p>İstanbul Rumeli üniversitesi öğrencileri tarafından Corona günlerinde kurulmuştur.</p>
    </div>
    <div class="col-xl-3 col-lg-6 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-     <h4>Contact Info</h4>
+     <h4></h4>
+     <div class="salla">
+
+     <p >İstanbul Rumeli üniversitesi öğrencileri tarafından Corona günlerinde kurulmuştur.</p>
+   </div>
+
+   </div>
+   <div class="col-xl-3 col-lg-6 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+     <h4>Bizce Faydalı Linkler</h4>
      <ul>
-       <li><p>Address :Your address goes
-           here, your demo address.</p></li>
-       <li><p>Phone : +8880 44338899</p></li>
-       <li><p>Email : info@colorlib.com</p></li>
+       <li><a href="https://turkcekaynaklar.com/">Kendini Geliştirmek İsteyenler için</a></li>
+       <li><a href="https://github.com/AtakanErmis/gelistirici-yol-haritasi">Geliştirici Yol Haritasi</a></li>
+       <li><a href="https://jargon.ist/dizin/">Jargonist</a></li>
+       <li><a href="https://ahmetcadirci.com.tr/2016/tasarimcilarin-el-cantasi-niteligindeki-ucretsiz-kaynaklar/">Tasarımcının El Çantası</a></li>
+       <li><a href="https://www.onbirkod.com/kendi-kendine-programlama-ogrenme-rehberi/">Kendi Kendine Programla Öğrenme Rehberi</a></li>
      </ul>
    </div>
    <div class="col-xl-3 col-lg-6 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-     <h4>Important Link</h4>
-     <ul>
-       <li><a href="#">WHMCS-bridge</a></li>
-       <li><a href="#">Search Domain</a></li>
-       <li><a href="#">My Account</a></li>
-       <li><a href="#">Shopping Cart</a></li>
-       <li><a href="#">Our  Main Shop</a></li>
-     </ul>
+     <h4></h4>
+     <div class="salla">
+
+     <p >İstanbul Rumeli üniversitesi öğrencileri tarafından Corona günlerinde kurulmuştur.</p>
    </div>
-   <div class="col-xl-3 col-lg-6 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-     <h4>Newsletter</h4>
-     <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open</p>
-     <div class="form-wrap" id="mc_embed_signup">
-     </div>
+
    </div>
  </div>
  <div class="copyright_text">
    <div class="row align-items-center">
      <div class="col-lg-8">
        <div class="copyright_part">
-         <p class="footer-text m-0">Copyright © 2019 All rights reserved <span class="px-2">|</span> This template is Made with <a href="http://colorlib.com"><i class="ti-heart"></i></a> by <a href="http://colorlib.com">Colorlib</a></p>
+         <p class="footer-text m-0">Bu bir ödev sitesi olup öğrenci adam Hacklenmez AYIPTIR!</p>
        </div>
      </div>
      <!--
