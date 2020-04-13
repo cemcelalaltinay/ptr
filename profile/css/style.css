@@ -18,6 +18,11 @@ body {
   color: #fbf2ee;
   background: #fbf2ee;
 }
+.ptr img{
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+}
 
 #page {
   position: relative;
